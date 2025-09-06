@@ -1,0 +1,28 @@
+# Compilados Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Diretórios de build/output
+/out/
+/build/
+/target/
+/bin/
+
+# Configurações do VSCode
+.vscode/
+
+# Arquivos temporários do sistema
+*.log
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Arquivos de cache
+.idea/
+*.iml
+.gradle/
+.mvn/

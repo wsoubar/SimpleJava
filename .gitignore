@@ -11,7 +11,7 @@
 /bin/
 
 # Configurações do VSCode
-.vscode/
+# .vscode/
 
 # Arquivos temporários do sistema
 *.log

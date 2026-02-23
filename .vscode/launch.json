@@ -10,12 +10,6 @@
             "request": "launch",
             "mainClass": "App",
             "projectName": "SimpleJava_bdff73a6"
-        },
-        {
-            "type": "java",
-            "name": "Current File",
-            "request": "launch",
-            "mainClass": "${file}"
         }
     ]
 }

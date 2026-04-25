@@ -8,6 +8,13 @@
             "type": "java",
             "name": "App",
             "request": "launch",
+            "mainClass": "br.com.wagner.App",
+            "projectName": "simple-java"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
             "mainClass": "App",
             "projectName": "SimpleJava_bdff73a6"
         }

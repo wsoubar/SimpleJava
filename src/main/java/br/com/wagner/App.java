@@ -10,6 +10,11 @@ public class App {
     //private static final Logger log = LoggerFactory.getLogger(App.class);
 
     public static void main(String[] args) {
-        log.info("Hello, World!!!!");
+        App app = new App();
+        app.sayHello("Wagner");
+    }
+
+    private void sayHello(String name) {
+        log.info("Hello, {} !!!!", name);
     }
 }

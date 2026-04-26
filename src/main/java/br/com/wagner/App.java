@@ -9,7 +9,7 @@ public class App {
     
     //private static final Logger log = LoggerFactory.getLogger(App.class);
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         log.info("Hello, World!!!!");
     }
 }

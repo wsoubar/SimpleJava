@@ -3,6 +3,7 @@ package br.com.wagner;
 //import org.slf4j.LoggerFactory;
 
 import lombok.extern.slf4j.Slf4j;
+import java.util.Random;
 
 @Slf4j
 public class App {
@@ -11,7 +12,11 @@ public class App {
 
     public static void main(String[] args) {
         App app = new App();
-        app.sayHello("Wagner");
+        String[] nomes = {"Wagner", "João", "Maria", "Julio"};
+        Random rand = new Random();
+        int index = rand.nextInt(nomes.length);
+        String randomName = nomes[index];
+        app.sayHello(randomName);
     }
 
     private void sayHello(String name) {
